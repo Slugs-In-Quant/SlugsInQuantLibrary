@@ -1,5 +1,4 @@
 # SlugsInQuantLibrary
-General Slugs In Quant Library
 Here will be a collection of various exercises, calculators, demonstrative strategies, backtests and other useful resources.
 The majority, if not all code will be in Python.
 Any strategy displayed in this library does NOT claim to be profitable or robust enough to be run using real money.
