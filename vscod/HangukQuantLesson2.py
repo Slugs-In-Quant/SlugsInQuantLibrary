@@ -11,6 +11,7 @@ def get_sp_500_ticker():
     table = soup.find_all('table')[0]
     df = pd.read_html(str(table))
     tickers_list = list(df[0].Symbol)
+    tickers_list = [item.replace(".","-") for item in tickers_list]
     return tickers_list
 tickers = get_sp_500_ticker()
 #we define a function get_history, using ticker, period_start, period_end and granularity which is the time interval
